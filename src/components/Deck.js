@@ -283,8 +283,8 @@ class Deck extends Component {
         return (
             <Fragment>
                 <div ref={ref_id => this.nav_buttons_container = ref_id} style={styles.nav_buttons_container}>
-                    <img onClick={this.handle_prev} ref={ref_id => this.button_prev = ref_id} style={styles.nav_button} src="images/left-chevron.png" alt="prev" id="prev" />
-                    <img onClick={this.handle_next} ref={ref_id => this.button_next = ref_id} style={styles.nav_button} src="images/right-chevron.png" alt="next" id="next" />
+                    <img onClick={this.handle_prev} ref={ref_id => this.button_prev = ref_id} style={styles.nav_button} src="./react-webpage-02/images/left-chevron.png" alt="prev" id="prev" />
+                    <img onClick={this.handle_next} ref={ref_id => this.button_next = ref_id} style={styles.nav_button} src="./react-webpage-02/images/right-chevron.png" alt="next" id="next" />
                 </div>
                 <div ref={ref_id => this.view_port = ref_id} style={styles.view_port}>
                     <div ref={ref_id => this.images = ref_id} style={styles.images_container}>

@@ -18,7 +18,7 @@ function Home() {
     return (
         <div>
             <div className="section1">
-                <img src="./images/background-section1.jpg" alt="" className="background_image" />
+                <img src="./react-webpage-02/images/background-section1.jpg" alt="" className="background_image" />
                 <div className="greeting">Sinclaire<br />Market</div>
             </div>
 
@@ -35,14 +35,14 @@ function Home() {
                 </div>
 
                 <div className="right_side">
-                    <img src="./images/spice-bowl.png" alt="" />
+                    <img src="./react-webpage-02/images/spice-bowl.png" alt="" />
                 </div>
 
                 <div className="call_to_action">
-                    <Link to="/products">Browse our selection.</Link>
+                    <Link to="/react-webpage-02/products">Browse our selection.</Link>
                 </div>
 
-                <img src="./images/spoons.png" alt="" className="spoons" />
+                <img src="./react-webpage-02/images/spoons.png" alt="" className="spoons" />
             </div>
 
             <div className="section3">

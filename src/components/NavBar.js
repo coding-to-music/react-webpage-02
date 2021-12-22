@@ -43,13 +43,13 @@ function NavBar() {
                 </div>
                 <ul className="menu-items">
                     <li>
-                        <Link to="/" onClick={close_menu}>Home</Link>
+                        <Link to="/react-webpage-02" onClick={close_menu}>Home</Link>
                     </li>
                     <li>
-                        <Link to="/products" onClick={close_menu}>Products</Link>
+                        <Link to="/react-webpage-02/products" onClick={close_menu}>Products</Link>
                     </li>
                     <li>
-                        <Link to="/about" onClick={close_menu}>About</Link>
+                        <Link to="/react-webpage-02/about" onClick={close_menu}>About</Link>
                     </li>
                 </ul>
             </div>
