@@ -13,7 +13,7 @@ function App() {
         <BrowserRouter>
             <NavBar />
             <Switch>
-                <Route exact path="/react-webpage-02" component={Home} />
+                <Route exact path="/react-webpage-02/" component={Home} />
                 <Route exact path="/react-webpage-02/products" component={Products} />
                 <Route exact path="/react-webpage-02/about" component={About} />
             </Switch>
